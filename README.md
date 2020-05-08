@@ -11,13 +11,15 @@ It is classical MVC application, so everyone can understand it very easy and qui
 
 It uses awesome [Spring JPA](https://spring.io/guides/gs/accessing-data-jpa/) to manipulate entities.
 
-## Quickstart
+## Quickstart on FreeBSD 12.1
 
-1) Clone repository
-2) Go to project folder `cd cms-boot`
-3) Build project `./gradlew build`
-4) Run project `java -jar build/libs/cms-boot-0.2-SNAPSHOT.jar --spring.profiles.active=dev`
-5) Run it on `localhost:8080`
+1) Update FreeBSD package `pkg update`
+2) Install Gradle 6.2.2, OpenJDK 8.242.07.1 etc `pkg ins gradle-6.2.2`
+3) Clone repository ``
+4) Go to project folder `cd cms-boot`
+5) Build project `./gradlew build`
+6) Run project `java -jar build/libs/cms-boot-0.2-SNAPSHOT.jar --spring.profiles.active=dev`
+7) Run it on `localhost:8080`
 
 Better way of usage is to create local database. Create file *application-local.yml* from *application-local.yml.template* and run it in local profile.
 
