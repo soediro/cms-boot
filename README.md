@@ -15,7 +15,7 @@ It uses awesome [Spring JPA](https://spring.io/guides/gs/accessing-data-jpa/) to
 
 1) Update FreeBSD package `pkg update`
 2) Install Gradle 6.2.2, OpenJDK 8.242.07.1 etc `pkg ins gradle-6.2.2`
-3) Clone repository ``
+3) Clone repository `git clone https://github.com/buttasam/cms-boot.git`
 4) Go to project folder `cd cms-boot`
 5) Build project `./gradlew build`
 6) Run project `java -jar build/libs/cms-boot-0.2-SNAPSHOT.jar --spring.profiles.active=dev`
